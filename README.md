@@ -16,14 +16,14 @@ chmod u+x ote
 ```
 
 ```bash
-$ ote GOODYS
+$ ./ote GOODYS
 NAME: GOODYS
 TELEPHONE: 2310912163
 ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
 ```
 
 ```bash
-$ ote 2310912163
+$ ./ote 2310912163
 NAME: GOODYS
 TELEPHONE: 2310912163
 ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
