@@ -35,8 +35,10 @@ function sendRequest( query ){
 		$("ul.results-list-names li").each(function(){
 			var details = $(this).find(".details");
 			var title = details.find("span.title").text();
+			var tel   = details.find("div.phone").text()
 			var address = details.find("div.address").text();
-			console.log( "NAME: " + title + "\nADDRESS: " + address);
+            console.log( "NAME: " + title + "\nTELEPHONE: " + tel + "\nADDRESS: " + address);
+
 		});
 
 	});
