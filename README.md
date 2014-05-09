@@ -11,8 +11,7 @@ Get contact information from greek whitepages service (OTE) using Node.JS.
 **Usage:**
 
 ```bash
-sudo npm install -g request
-sudo npm install -g cheerio
+sudo npm install -g
 chmod u+x ote
 ```
 
@@ -32,5 +31,7 @@ ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θε
 or alternatively:
 
 ```bash
+$ sudo npm install -g request
+$ sudo npm install -g cheerio
 $ node ote.js <number or name> 
 ```
